@@ -1,0 +1,67 @@
+:root {/**/
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-small-info: #C1BCCC;
+    font-size: 60%; /* controle das medidas rem */
+}
+
+*{
+    margin: 0;/*espaçamento por fora da caixa*/
+    padding: 0;/*preenchimento interno*/
+    box-sizing: border-box; /*conteúdo da caixa, mede o conteúdo pela borda*/
+}
+/*box-sizing faz com que o css faça suas medida considerando as bordas
+por exemplo: o tamanho do preenchimento que pode ser feito considerando o 
+box-sizing:border-box(bordas da caixa), sem esse, ele considera o tamanho apenas do conteúdo sem o tamanho das bordas */
+
+html, body{
+    height:100vh;
+}
+
+body{
+    background: var(--color-background);
+    /*font-size: 1rem;*/
+    display: flex; /*faz com que os elementos que usam quebra delinha nativamente, passem a não utilizar*/
+    align-items: center;
+    justify-content: center;
+}
+
+body, 
+input, 
+button, 
+textarea{
+    /*font: 500 1.6rem Poppins;*/
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;;
+    color: var(--color-text-base);
+}/* rem - root element, em - element, rem é a medida não convertida de porcentagem, 
+    quando vc coloca a unidade como rem, você está dizendo pro css que quer que ele espelhe a medida que está dentro do :root, 
+    caso vc queira usar a medida da tag pai (no caso, a tag pai de H1 é a body), vc usa o em, 
+    desse jeito ele ignora a referência dentro de :root e espelha a medida que vc usou na tag pai da qual você quer alterar */
+
+#container{
+    width: 90vw; /*view width - width = largura*/
+    max-width: 700px;
+}
+@media(min-width: 700px){
+    :root{
+         font-size: 62.5%; /*todo 1rem vai ser relativo a 10px */
+    }
+}
