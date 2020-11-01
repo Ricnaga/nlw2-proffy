@@ -10,31 +10,15 @@
    - [Licença](#Licença)
 <!--te-->
 ## <div align="center">Requisitos<div>
-Antes de começar é necessário instalar algumas ferramentas, tais como um editor de códigos para realizar compilação dos mesmos. Os códigos desse repositório foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) e [Git Bash](https://gitforwindows.org/). Após instalados, no prompt de comando será necessário instalar as seguintes dependências.\
-OBS:Todas as tecnologias e dependências serão instaladas via prompt de comando (bash ou cmd) e todas foram instaladas a partir da pasta raíz do repositório.
-- [Express.js](#express)
-- [Nodemon](#nodemon)
-- [Nunjucks](#nunjucks)
-- [Sqlite-async](#sqlite-async)
+Antes de começar é necessário instalar algumas ferramentas, tais como um editor de códigos para realizar compilação dos mesmos. Os códigos desse repositório foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) e [Git Bash](https://gitforwindows.org/). Após instalados, será necessário instalar o também o [Yarn](https://yarnpkg.com/) para que seja possível automatizar as instalações de todas as dependências que foram usadas nessa aplicação.
 
+o terminal, realize a clonagem do repositório.\
+$ git clone <https://github.com/Ricnaga/NLW> \
+Acesse o projeto.\
+$ cd NLW \
+Execute o comando yarn para reaver todos as dependências instaladas dessa aplicação.
 
-### <div align="center">Express</div>
-Clone este repositório: git clone <https://github.com/Ricnaga/NLW> \
-Acesse o projeto: cd NLW \
-Inicie um projeto: npm init -y \
-Ainda na raíz será necessário entrar com o comando abaixo para instalar o [Express](https://expressjs.com/pt-br/starter/installing.html): \
-npm install express \
-
-### <div align="center">Nodemon</div>
-Após instalado o Express, é necessário instalar o monitorador [Nodemon](https://nodemon.io/): \
-npm install nodemon -D \
-
-### <div align="center">Nunjucks</div>
-Instale o [Nunjucks](https://mozilla.github.io/nunjucks/): npm install nunjucks
-
-### <div align="center">Sqlite-async</div>
-Instale o banco de dados [Sqlite](https://www.nodenpm.com/sqlite-async/package.html): npm install sqlite-async \
-Feito todos os passo, é hra de iniciar a aplicação: npm run dev \
+Feito todos os passo, é hora de iniciar a aplicação: npm run dev \
 Iniciado cada aplicação, abra qualquer navegador e digite http://localhost:5500 \
 
 ## <div align="center">Tecnologias utilizadas<div>
