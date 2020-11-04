@@ -16,6 +16,7 @@ const { subjects, weekdays, getSubject, convertHoursToMinutes } = require('./uti
         
         //converter horas em minutos
         const timeToMinutes = convertHoursToMinutes(filters.time)
+        
 
         const query = `
             SELECT classes.*, proffys.* 
@@ -31,12 +32,12 @@ const { subjects, weekdays, getSubject, convertHoursToMinutes } = require('./uti
             )
             AND classes.subject = '${filters.subject}'
         `
-
+        
         //caso haja erro na consulta do banco de dados
         try{
             const db = await Database
             const proffys = await db.all(query)
-
+            
             proffys.map((proffy) => {
                 proffy.subject = getSubject(proffy.subject)
             })
