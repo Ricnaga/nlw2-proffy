@@ -91,9 +91,7 @@ const { subjects, weekdays, getSubject, convertHoursToMinutes } = require('./uti
             console.log(error)
         }
         
-    }
-        
-    
+    }    
 
     module.exports = {
         pageLanding,

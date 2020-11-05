@@ -29,6 +29,8 @@ server
 .get("/give-classes", pageGiveClasses)
 .post("/save-classes", saveClasses)
 //start o servidor
-.listen(5500)
+.listen(5500, () => {
+    console.log('Start to watch on localhost:5500 👍')
+})
 
 // __dirname é é a pasta C:\NLW\src
