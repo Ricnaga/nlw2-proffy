@@ -1,6 +1,6 @@
 <img src="img1.jpg" alt="Capa"/>
 
-![GitHub](https://img.shields.io/github/license/Ricnaga/NLW2-Proffy)
+![GitHub](https://img.shields.io/github/license/Ricnaga/NLW2-Proffy?style=for-the-badge)
 
 # <div align="center"> NLW2 Discovery | Proffy </div>
 #### <div align="right">- Projeto Finalizado <div>
