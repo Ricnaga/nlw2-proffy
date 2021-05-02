@@ -1,5 +1,5 @@
 {
-  "name": "NLW2Proffy",
+  "name": "NLW2-Proffy",
   "scripts": {
     "dev": "nodemon --inspect src/server.js"
   },

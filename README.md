@@ -54,9 +54,6 @@ $ yarn dev (caso não utilize o yarn: npm run dev)
 # No navegador digite: http://localhost:3000
 ```
 
-
-
-
 ## <div align="center">Autor</div>
 <div align="center">Atividade desenvolvida no evento NextLevelWeek #2(NLW2) pela equipe <a href="https://rocketseat.com.br/">Rocketseat</a>, realizados por minha pessoa.
 Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
