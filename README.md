@@ -36,10 +36,10 @@ Para executar a aplicação é necessário instalar algumas ferramentas tais com
 
 ```bash
 # Baixe o repositório.
-$ git clone https://github.com/Ricnaga/NLW2-Proffy.git
+$ git clone https://github.com/Ricnaga/nlw2-proffy.git
 
 # Acesse a pasta do projeto.
-$ cd NLW2-Proffy
+$ cd nlw2-proffy
 
 # Agora que baixou e acessou o repositório, vamos começar a instalação das dependências.
 $ yarn ( caso não utilize o yarn execute apenas npm -i)
